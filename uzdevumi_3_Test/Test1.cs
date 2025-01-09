@@ -431,6 +431,73 @@ namespace uzdevumi_3_Test
             Assert.IsFalse(result);
         }
 
+        [TestMethod]
+        public void Uzdevums10_Eksistē_Test()
+        {
+            //Arrange
+            string functionName = "Uzdevums10VērtībaIrMaza";
+            //Act
+            bool methodExists = TrešāStunda.HasMethod(functionName);
+            //Assert
+            Assert.IsTrue(methodExists, "Metode Neeksistē");
+        }
+
+        [TestMethod]
+        public void Uzdevums10VērtībaIrMaza_500_500_true_test()
+        {
+            //Arrange
+            string methodName = "Uzdevums10VērtībaIrMaza";
+            bool methodExists = TrešāStunda.HasMethod(methodName);
+            var result = false;
+            
+
+            //Act
+            if (methodExists)
+            {
+                result = (bool)typeof(TrešāStunda).GetMethod(methodName).Invoke(typeof(TrešāStunda), new object[2] {500, 500 });
+            }
+
+            //Assert
+            Assert.IsTrue(result, "padots 500, 500, sagaidāms true");
+        }
+
+        [TestMethod]
+        public void Uzdevums10VērtībaIrMaza_400_601_false_test()
+        {
+            //Arrange
+            string methodName = "Uzdevums10VērtībaIrMaza";
+            bool methodExists = TrešāStunda.HasMethod(methodName);
+            var result = true;
+
+
+            //Act
+            if (methodExists)
+            {
+                result = (bool)typeof(TrešāStunda).GetMethod(methodName).Invoke(typeof(TrešāStunda), new object[2] { 400, 601 });
+            }
+
+            //Assert
+            Assert.IsFalse(result, "padots 400, 601, sagaidāms false");
+        }
+
+        [TestMethod]
+        public void Uzdevums10VērtībaIrMaza_400_mīnus600_true_test()
+        {
+            //Arrange
+            string methodName = "Uzdevums10VērtībaIrMaza";
+            bool methodExists = TrešāStunda.HasMethod(methodName);
+            var result = false;
+
+
+            //Act
+            if (methodExists)
+            {
+                result = (bool)typeof(TrešāStunda).GetMethod(methodName).Invoke(typeof(TrešāStunda), new object[2] { 400, -600 });
+            }
+
+            //Assert
+            Assert.IsTrue(result, "padots 400, -600, sagaidāms true");
+        }
 
 
 

@@ -207,6 +207,16 @@ namespace uzdevumi_3
 
             return esIepauzēšuSpēli;
         }
+        //Pārbaudi ka visi 4 testi izpildās 
+
+
+        //10.uzdevums
+        //Pārliecināsimies ka spējam salīdzināt vai divas string vērtības ir vienādas
+        //Uzraksti metodi Uzdevums10VērtībaIrMaza , kas saņems divus skaitļus un atgriezīs true ja to summa ir <= 1000
+
+        //Raksti metodi Uzdevums10VērtībaIrMaza nākamajā rindā
+        
+        //visiem 4 testiem jāizpildās
 
 
 
