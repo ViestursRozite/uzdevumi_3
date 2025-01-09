@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uzdevumi_3", "uzdevumi_3.csproj", "{CDFF16CB-0B3D-4966-AF69-F22C5BA75268}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uzdevumi_3_Test", "..\uzdevumi_3_Test\uzdevumi_3_Test.csproj", "{664DCA20-342C-4960-A00E-271DD16AA2AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDFF16CB-0B3D-4966-AF69-F22C5BA75268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDFF16CB-0B3D-4966-AF69-F22C5BA75268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDFF16CB-0B3D-4966-AF69-F22C5BA75268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDFF16CB-0B3D-4966-AF69-F22C5BA75268}.Release|Any CPU.Build.0 = Release|Any CPU
+		{664DCA20-342C-4960-A00E-271DD16AA2AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{664DCA20-342C-4960-A00E-271DD16AA2AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{664DCA20-342C-4960-A00E-271DD16AA2AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{664DCA20-342C-4960-A00E-271DD16AA2AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
