@@ -211,12 +211,20 @@ namespace uzdevumi_3
 
 
         //10.uzdevums
-        //Pārliecināsimies ka spējam salīdzināt vai divas string vērtības ir vienādas
         //Uzraksti metodi Uzdevums10VērtībaIrMaza , kas saņems divus skaitļus un atgriezīs true ja to summa ir <= 1000
 
         //Raksti metodi Uzdevums10VērtībaIrMaza nākamajā rindā
         
         //visiem 4 testiem jāizpildās
+
+
+        //11.uzdevums
+        //Tagad kad varam veikt loģiskās pārbaudes, varam automatizēt teksta aizpildi
+        //izveidosim metodi, kas vienmēr atgriež vienāda garuma tekstu - 30 zīmes, jeb 30 char
+        //tātad jāizveido kastīte 30 char
+        //char[] rezult = new char[30]()
+
+        //public static bool Uzdevums11_AtgriežVārdu
 
 
 

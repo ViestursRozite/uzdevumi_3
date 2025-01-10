@@ -260,7 +260,7 @@ namespace uzdevumi_3_Test
             }
 
             //Assert
-            Assert.AreEqual($"Manā {prameterToPass} šobrīd ielādētas {prameterToPass2} izklaides aplikācijas", result, $"Saucot Uzdevums5(\"{prameterToPass}\", \"{prameterToPass2}\") funkcija neatgrieza \"{prameterToPass}{prameterToPass2}\"");
+            Assert.AreEqual($"Manā {prameterToPass} šobrīd ielādētas {prameterToPass2} izklaides aplikācijas", result, $"Saucot Uzdevums5(\"{prameterToPass}\", \"{prameterToPass2}\") funkcija neatgrieza \"Manā {prameterToPass} šobrīd ielādētas {prameterToPass2} izklaides aplikācijas\"");
         }
 
         [TestMethod]
