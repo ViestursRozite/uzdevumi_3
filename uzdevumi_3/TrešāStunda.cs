@@ -224,17 +224,64 @@ namespace uzdevumi_3
         //Uzraksti metodi Uzdevums10VērtībaIrMaza , kas saņems divus skaitļus un atgriezīs true ja to summa ir <= 1000
 
         //Raksti metodi Uzdevums10VērtībaIrMaza nākamajā rindā
-        
+
         //visiem 4 testiem jāizpildās
 
 
         //11.uzdevums
-        //Tagad kad varam veikt loģiskās pārbaudes, varam automatizēt teksta aizpildi
-        //izveidosim metodi, kas vienmēr atgriež vienāda garuma tekstu - 30 zīmes, jeb 30 char
-        //tātad jāizveido kastīte 30 char
-        //char[] rezult = new char[30]()
+        //metodei jāņem 2 skaitļi un jāatgriež true ja tie ir vienādi
+        //Raksti metodi Uzdevums11VaiSkaitļiIrVienādi nākamajā rindā
 
-        //public static bool Uzdevums11_AtgriežVārdu
+
+        //12.uzdevums
+        //metodei jāņem 1 skaitlis un jāatgriež true ja tas ir pāra skaitlis
+        //Raksti metodi Uzdevums12IrPāraSkaitlis nākamajā rindā
+
+
+        //13.uzdevums
+        //metodei jāņem 1 skaitlis un jāatgriež true ja tas ir pozitīvs
+        //Raksti metodi Uzdevums13IrPozitīvsSkaitlis nākamajā rindā
+
+
+        //14.uzdevums
+        //metodei jāņem trīs skaitļi un jāatgriež lielākais no tiem
+        //Raksti metodi Uzdevums14Lielākais nākamajā rindā
+
+
+        //15.uzdevums
+        //metodei jāņem divi skaitļi x un y, secībā x, y
+        //metodei jāatgriež skaitlis no 1 līdz 4, kas apzīmē kurā kvadrantā atrodas koordinātu punkts
+        //   2 | 1
+        //  -------
+        //   3 | 4
+        //Raksti metodi Uzdevums15Kvadrants
+
+
+        //16.uzdevums 
+        //metodei jāņem 3 skaitļi - trijstūra lenķi, jāatgriež true ja iespējams izveidot trijstūri ar šādiem lenķiem
+        //Raksti metodi Uzdevums16VaiSanākTrijstūris
+
+
+        //17.uzdevums
+        //metodei jāņem 2 skaitļi izdevumi un ieņēmumi, tādā secībā
+        //aprēķini vai ir peļņa vai zaudējumi un 
+        //atgriez teikumu "Peļņā esam sastrādājuši {x} euro!" vai "Žaudējumos norakstāms {x} euro"
+        //Raksti metodi Uzdevums17PeļņaZaudējumi nākamajā rindā
+
+
+        //18.uzdevums
+        //metodei jāņem viens cipars no 1 līdz 7
+        //jāatgriež nedēļas diena 
+        //"Pirmdiena"
+        //"Otrdiena"
+        //"Trešdiena"
+        //"Ceturtdiena"
+        //"Piektdiena"
+        //"Sestdiena"
+        //"Svētdiena"
+        //vai
+        //"skaitlis ārpus atļautajām robežām"
+        //Raksti metodi Uzdevums18NedēļasDienas
 
 
 
