@@ -9,12 +9,18 @@ namespace uzdevumi_3
 {
     public static class TrešāStunda
     {
-        //Viens pareizs piemērs ar to ko darījām iepriekšējā stundā
+        //pirmais piemērs
         //Šeit definējam, kas datoram jādara tad, kad izsauksim funkciju
+        //Uzdevumiemir uzrakstīti automatizēti testi
+        //atver testu logu
+        //View / Test Explorer
+        //Funkcijas tests sākas ar funkcijas nosaukumu, pēc tam seko sagaidāmās darbības, pašās beigās pierakstīts test
+        //Palaid testu ar pildīto zaļo bultiņu Test Explorer logā
         public static int Saskaita3VeselusSkaitļusPiemērs(int int1, int int2, int int3)
         {
             return int1 + int2 + int3;
         }
+        //Zaļais aplis ar ķeksīti norāda ka tests izpildās
 
 
         //piemērs ar testu kas neizpildās
@@ -22,10 +28,10 @@ namespace uzdevumi_3
         //Error message redzams, kas nav preizi
         //Funkcijai jāatgriež int nevis string, 
 
-        //string jānomaina uz int
+        //funkcijas tips string jānomaina uz int
         public static string FunkcijaAtgriežToPašuIntKoTaiPadod(int veselsSkaitlis)
         {
-            //rindā return jānodzēš ".ToString()"
+            //rindā return jānodzēš ".ToString()" 
             return veselsSkaitlis.ToString();
         }
         // palaid testu un pārbaudi vai tas izpildās
@@ -49,13 +55,17 @@ namespace uzdevumi_3
         //Pašlaik rakstam metodes TrešāStunda klasē
 
         //Metodei jāsākas ar public, lai to varētu izsaukt ārpus šīs lapas
-        //pēc tam static, lai mums nebūtu jāuztaisa TrešāStunda kastīte pirms metodes saukšanas
+        
+        //pēc tam static, lai mums nebūtu jāuztaisa
+        //TrešāStunda mainīgais = new TrešāStunda();
+        //mainīgais pirms metodes saukšanas
+
         //metodei jāatgriež int
         //metodei jāņem viens parametrs- tas kas ir iekavās. int tips
         //metodei jāatgriež padotais skaitlis +1
 
         //Uzraksti metodi Uzdevums2 nākamajā rindā
-        
+
         //Pārbaudi ka Visi trīs 2.uzdevuma testi izpildās
 
 
@@ -74,7 +84,7 @@ namespace uzdevumi_3
         //Piem. padod Func("pareizi") un func. atgriež "pareizipareizi"
 
         //Uzraksti metodi Uzdevums3 nākamajā rindā
-        
+
         //Pārbaudi ka Visi trīs 3.uzdevuma testi izpildās
 
 
@@ -90,7 +100,7 @@ namespace uzdevumi_3
         //Atceries Ja Tu pievieno gandrīz jebko klāt string piem.: "wooHoo" + 6.8 kļūs par "wooHoo6.8", tātad tas arī pārvērtīsies par string
 
         //Uzraksti metodi Uzdevums4 nākamajā rindā
-        
+
         //Pārbaudi ka Visi trīs uzdevuma testi izpildās
 
 
@@ -110,7 +120,7 @@ namespace uzdevumi_3
         //               "Manā { } šobrīd ielādētas { } izklaides aplikācijas"
 
         //Uzraksti metodi Uzdevums5 nākamajā rindā 
-        
+
         //Pārbaudi ka Visi trīs uzdevuma testi izpildās
 
 
@@ -125,7 +135,7 @@ namespace uzdevumi_3
         //Vai šai metodei nepieciešami parametri?
 
         //Uzraksti metodi Uzdevums6() nākamajā rindā
-        
+
         //Pārbaudi ka abi uzdevuma testi izpildās
 
 
@@ -139,7 +149,7 @@ namespace uzdevumi_3
 
         //Metodei jāatgriež teksts
         //Uzraksti metodi Uzdevums7() nākamajā rindā
-        
+
         //Pārbaudi ka abi uzdevuma testi izpildās
 
 

@@ -8,6 +8,7 @@
 // int - mainīgā tips, tikai veseli skaitļi
 // mainīgo varam nosaukt kādā vārdā gribam
 //programmēšanā viena "=" zīme nozīmē "no šī brīža būs"
+//tips jānorāda tikai izveidojot jaunu mainīgo
 int piemērsArInt = 0;//mainīgajā piemērsArInt pašlaik glabājas 0
 
 
@@ -20,6 +21,7 @@ b = 3;//nomainam vērtību b kastītē
 //Tagad esam nomainījuši vērtību, kas šobrīd glabājas a ?
 Console.WriteLine("mainīgajā a, šobrīd glabājas " + a);//dator uzraksti konsolē "mainīgajā a, šobrīd glabājas [a vērtība]"
 //Ar zaļo bultiņu augšā pa vidu palaid programmu uzdevumi_3 un paskaties...
+//kas glabājas mainīgajā a
 
 
 //atceries mainīgie ir tikai kastītes no kā "paņem" vērtību vai "ieliek" vērtību
@@ -31,14 +33,12 @@ Console.WriteLine("mainīgajā a, šobrīd glabājas " + a);//dator uzraksti kon
 
 //                   funkcijas izsaukšana no klases(mapīte funkcijām)
 
-//mainīgajā piemērsArInt pašlaik stāv 0 *11. rindā izveidojām mainīgo un uzreiz tur ielikām 0
-piemērsArInt = TrešāStunda.Saskaita3VeselusSkaitļusPiemērs(6, 8, 1);//Dator! mainīgajā jeb "Kastē" piemērsArInt no šī bŗīža glabā to ko funkcija Saskaita3VeselusSkaitļusPiemērs šajā momentā atgriež
+//mainīgajā piemērsArInt pašlaik stāv 0
+//11tajā rindā izveidojām mainīgo un uzreiz tur ielikām 0
+//tagad nomainīsim mainīgajam piemērsArInt vērtību 
+piemērsArInt = TrešāStunda.Saskaita3VeselusSkaitļusPiemērs(6, 8, 1);
+//Dator! mainīgajā jeb "Kastē" piemērsArInt no šī bŗīža glabā to ko funkcija Saskaita3VeselusSkaitļusPiemērs šajā momentā atgriež
 //mainīgajā piemērsArInt pašlaik stāv 15
-
-
-
-
-//Nodzēs "//" 35. rindā un paskaties 
 
 
 //Lai gan failu pārlūkā, savā mapītē neredzēsim "Saskaita3VeselusSkaitļusPiemērs.exe" varam uztvert šo kā
@@ -48,13 +48,14 @@ piemērsArInt = TrešāStunda.Saskaita3VeselusSkaitļusPiemērs(6, 8, 1);//Dator
 //".exe" - izpildāms fails, piemēri: Firefox.exe, Steam.exe, VisualStudio.exe
 
 //apskatīsim ko atgrieza funkcija "Saskaita3VeselusSkaitļusPiemērs"
+//nākamajā rindā nodzēs "//" komentēšanas zīmi un palaid programmu
 //Console.WriteLine("mainīgajā piemērsArInt, šobrīd glabājas " + piemērsArInt);
 
 
-//                    iepazīsimies ar klasēm 
+//               veidosim funkcijas klasē trešā stunda
 //atver TrešāStunda.cs Solution explorerī
-//vai pieturi ctrl un uzklikšķini uz 
-// ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+//vai pieturot ctrl uzklikšķini uz 
+// ↓↓↓↓
 TrešāStunda.Saskaita3VeselusSkaitļusPiemērs(6, 8, 1);
 
 //Vieta pierakstiem:

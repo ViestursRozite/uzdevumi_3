@@ -53,7 +53,7 @@ namespace uzdevumi_3_Test
             {
                 if (e.Message.Length > 0)
                 {
-                    Assert.Fail("Šī funkcija sviež exeption, tas nav jādara");
+                    Assert.Fail("Šī funkcija sviež exeption, tas nav jādara. Nodzēs throw NotImplementedExeption*();");
                 }
                 else
                 {
